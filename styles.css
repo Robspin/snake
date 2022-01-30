@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+@font-face {
+    font-family:"Nokia";
+    src: url("nokiafc22.ttf") format("truetype");
+  }
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background: black;
+    overflow: hidden;
+    font-family: "Nokia";
+}
+
+.nokia {
+    height: 1000px;
+    width: 712px;
+    position: relative;
+    background: url('./nokia3310.png') no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.headers {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: white;
+}
+
+#canvas {
+    position: absolute;
+    background-color: #5c7b4d;
+    border: 4px solid #1f2512;
+    top: 228px;
+} 
